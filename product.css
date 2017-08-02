@@ -1,0 +1,92 @@
+﻿.product {
+    position: relative;
+    margin:auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    transform: translateX(0) scale(1);
+    transition: all 1s;
+    display:block;
+    height:100%;/*Need to set 100% or fill fill parent.*/
+}
+
+
+.product:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+    transform: scale(1.2);
+    z-index:10;
+}
+
+
+.product__info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+    text-align: left;
+    background-color:rgba(231, 63, 151, 0);
+}
+
+.product__info:hover {
+    opacity: 1;
+    background-color:rgba(231, 63, 151, 0.5);
+}
+
+
+.product__name {
+    font-family: FjallaOne-Regular;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left:50px;
+}
+
+
+.product__description {
+    font-family: FjallaOne-Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+
+.product__image {
+    left: 0;
+    top: 0;
+    //width: 260px;
+    height:300px;
+    width:auto;
+    display:block;
+}
+
+
+.product__link {
+    text-align:center;
+    width:100px;
+    margin:auto;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #FFFFFF;
+    font-family: .SFNSText;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-image: linear-gradient(-225deg, #90278E 0%, #EC1C24 100%);
+    border-radius: 3px;
+    opacity:0.7;
+    display:block;
+}
+
+.product .product__link:hover {
+    opacity: 1;
+    animation:none;
+}
+
+@media (min-width:700px) {
+    
+    .product__image {
+       // width: 400px;
+    }
+}

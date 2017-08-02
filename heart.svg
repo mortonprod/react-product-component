@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="220px" viewBox="0 0 220 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Mobile-Copy-2" transform="translate(-64.000000, -145.000000)" stroke="#E73F97" fill="#E73F97">
+            <g id="Group-2" transform="translate(61.000000, 145.000000)">
+                <g id="Group" transform="translate(3.000000, 0.000000)">
+                    <path d="M219.481132,219.6478 C146.323189,131.725869 109.744217,74.9038715 109.744217,49.181808 C109.744217,31.5398129 125.692955,4.72783006 160.107756,0.816172524 C170.615787,-0.378192041 190.406913,4.61539093 219.481132,15.7969214" id="Line-2" transform="translate(164.612675, 110.145538) scale(-1, 1) translate(-164.612675, -110.145538) "></path>
+                    <path d="M110.518868,219.6478 C37.3609247,131.725869 0.781953044,74.9038715 0.781953044,49.181808 C0.781953044,31.5398129 16.7306905,4.72783006 51.1454919,0.816172524 C61.653523,-0.378192041 81.4446484,4.61539093 110.518868,15.7969214" id="Line-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
