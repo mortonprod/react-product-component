@@ -7,8 +7,11 @@ import underlines from "./underlines.svg";
     Product information is passed to component to render.
 
     The main function of this component is to correctly render variable size images. We want to be able to display variables aspect ratio photos.
-    All images will have a fixed width which is variable with screen size. The images with be of variable height but centred along X axis in products list component.
-    The product will expand to show the produc and show the link to the buy page.
+    All photos must have the same height or they will leave large gaps when grouped together. They also must be about 300px width for mobile.
+    The product component must also have padding which is can expand into and centre into parent div.
+
+    To achieve these needs set padding to 30px for product to expand into and margin auto by default. If device width is less than 500px then reduce height of
+    image to 250px with max-width 300(This might leave some images with broken aspect ratio).
 
 
     -------------------------
