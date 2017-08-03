@@ -39,12 +39,19 @@
     font-family: FjallaOne-Regular;
     font-size: 25px;
     color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left:50px;
 }
 
 
 .product__description {
+    font-family: FjallaOne-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.product__descriptionLong {
     font-family: FjallaOne-Regular;
     font-size: 15px;
     color: #FFFFFF;
@@ -87,4 +94,21 @@
         height:200px;
         max-width: 300px;
     }
+
+
+    .product__name {
+        font-size: 20px;
+    }
+
+
+    .product__description {
+        font-size: 15px;
+
+    }
+
+    .product__descriptionLong {
+        font-size: 12px;
+    }
+
+
 }

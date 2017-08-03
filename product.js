@@ -44,8 +44,9 @@ export default function Product(props){
         <div className={"product"}>
             <img src={props.src} className="product__image" alt="logo" />
             <div className={"product__info"}>
-                 <h1 className={"product__name"}>{props.title}</h1>
-                 <p className="product__description">{props.description}</p>
+                 <h1 className={"product__name"}>{props.title} </h1>
+                 <h4 className="product__description">{props.description} </h4>
+                 <p className="product__descriptionLong">{props.info.description} </p>
                  {price}
             </div>
         </div>
