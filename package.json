@@ -1,0 +1,25 @@
+{
+  "name": "react-product-component",
+  "version": "1.0.0",
+  "description": "This is a small react component to display product information",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortonprod/react-product-component.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Alexander Morton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mortonprod/react-product-component/issues"
+  },
+  "homepage": "https://github.com/mortonprod/react-product-component#readme",
+  "dependencies": {
+    "react": "^15.6.1"
+  }
+}
