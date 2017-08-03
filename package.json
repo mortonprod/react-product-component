@@ -1,10 +1,11 @@
 {
-  "name": "react-product-component",
+  "name": "@username/react-product-component",
   "version": "1.0.0",
   "description": "This is a small react component to display product information",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm run tests"
+    "test": "npm run tests",
+		"build":"./node_modules/.bin/webpack --progress"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,19 @@
   },
   "homepage": "https://github.com/mortonprod/react-product-component#readme",
   "dependencies": {
-    "react": "^15.6.1"
+    "react": "^15.6.1",
+    "react-router-dom": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^3.4.1"
   }
 }
