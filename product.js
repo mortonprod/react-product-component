@@ -52,3 +52,11 @@ export default function Product(props){
         </div>
     )
 }
+
+Product.defaultProps={
+	title:"Test title",
+	description:"This is the test description",
+	img:null,
+	price:"test price",
+	info:{size:"test size",weight:"test weight"}
+}
