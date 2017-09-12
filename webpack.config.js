@@ -20,6 +20,10 @@ module.exports =  {
     }
   ]
   },
+  externals: {
+    'react': 'commonjs react', 
+		'react-router-dom':'commonjs react-router-dom'
+  },
 	output:{
     libraryTarget: 'umd',
   	filename: 'index.js',	

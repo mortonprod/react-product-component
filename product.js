@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import {Link} from 'react-router-dom'
-import "./product.css";
+//import  "./product.css";
 /**
     This is a product. It is composed of images which shows the product and information about that product. 
     Product information is passed to component to render.
@@ -41,11 +41,11 @@ export default function Product(props){
 
     return (
         <div className={"product"}>
-            <img src={props.src} className="product__image" alt="logo" />
+            <img src={props.src} className={"product__image"} alt="logo" />
             <div className={"product__info"}>
                  <h1 className={"product__name"}>{props.title} </h1>
-                 <h4 className="product__description">{props.description} </h4>
-                 <p className="product__descriptionLong">{props.info.description} </p>
+                 <h4 className={"product__description"}>{props.description} </h4>
+                 <p className={"product__descriptionLong"}>{props.info.description} </p>
                  {price}
             </div>
         </div>
