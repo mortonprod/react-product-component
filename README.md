@@ -15,7 +15,8 @@ Import the component like so(es6 syntax + bundler used):
 
 `
 import Product from @mortonprod/react-product-component
-
+`
+`
 import @mortonprod/react-product-component/dist/index.css
 ` 
 
