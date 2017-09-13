@@ -4,7 +4,6 @@
   "description": "This is a small react component to display product information",
   "main": "dist/index.js",
   "scripts": {
-    "install": "npm install",
     "test": "npm run tests",
     "build": "./node_modules/.bin/webpack --progress"
   },
