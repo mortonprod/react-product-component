@@ -3,7 +3,6 @@
 This component displays a picture along with name, description and price passed through props.
 The main function of this component is to correctly render variable size images. We want to be able to display variables aspect ratio photos.
 All photos must have the same height or they will leave large gaps when grouped together. They also must be about 300px width for mobile.
-The product component must also have padding which is can expand into and centre into parent div.
 
 ## Installation
 To install this component into your project run:
