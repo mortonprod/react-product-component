@@ -1,6 +1,6 @@
 {
   "name": "@mortonprod/react-product-component",
-  "version": "1.2.2",
+  "version": "1.3.2",
   "description": "This is a small react component to display product information",
   "main": "dist/index.js",
   "scripts": {
