@@ -16,7 +16,11 @@ Import the component like so:
 `
 import Product from @mortonprod/react-product-component
 `
+
+
 then import the css:
+
+
 `
 import @mortonprod/react-product-component/dist/index.css
 ` 
