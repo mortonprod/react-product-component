@@ -9,9 +9,10 @@ To install this component into your project run:
 
 `npm install @mortonprod/react-product-component`
 
-##Usage
+## Usage
 
-Import the component like so(es6 syntax + bundler to package css in someway):
+Import the component like so(es6 syntax + bundler used):
+
 `
 import Product from @mortonprod/react-product-component
 import @mortonprod/react-product-component/dist/index.css
