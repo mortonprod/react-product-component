@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import {Link} from 'react-router-dom'
-//import  "./product.css";
+import "./product.css";
 /**
     This is a product. It is composed of images which shows the product and information about that product. 
     Product information is passed to component to render.
