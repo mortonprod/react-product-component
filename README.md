@@ -11,16 +11,17 @@ To install this component into your project run:
 
 ## Usage
 
-Import the component like so(es6 syntax + bundler used):
+Import the component like so:
 
 `
 import Product from @mortonprod/react-product-component
 `
+then import the css:
 `
 import @mortonprod/react-product-component/dist/index.css
 ` 
 
-Note you must pull the css independently of the component.
+Note you must pull the css independently of the component. 
 
 ## Contributing
 
