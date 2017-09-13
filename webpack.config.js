@@ -1,11 +1,14 @@
 'use strict';
 const webpack = require('webpack');
 const path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 module.exports =  {
   entry: {
 		bundle: "./product.js"
 	},
-//	plugins: ["transform-react-jsx"],
+	plugins: [new ExtractTextPlugin("index.css"),new OptimizeCssAssetsPlugin(), new UglifyJSPlugin() ],
   module:{
   loaders: [
     {
@@ -13,7 +16,7 @@ module.exports =  {
       exclude: /(node_modules)/,
       loader: 'babel-loader'
     },
-		{ test: /\.css$/, loader: 'css-loader' },
+		{ test: /\.css$/,loader:ExtractTextPlugin.extract("css-loader") },
     {
         test: /\.svg$/,
         loader: 'svg-inline-loader'
